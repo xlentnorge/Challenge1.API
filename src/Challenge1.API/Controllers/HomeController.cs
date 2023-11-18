@@ -4,6 +4,7 @@ namespace Challenge1.API.Controllers
 {
 	public class HomeController : Controller
 	{
+		[HttpGet]
 		[Route("/")]
 		public IActionResult Index()
 		{
