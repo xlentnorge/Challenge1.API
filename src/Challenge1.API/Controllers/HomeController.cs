@@ -6,6 +6,7 @@ namespace Challenge1.API.Controllers
 	{
 		[HttpGet]
 		[Route("/")]
+		[ApiExplorerSettings(IgnoreApi = true)]
 		public IActionResult Index()
 		{
 			return Ok("XLENT - Challenge 1 API");
